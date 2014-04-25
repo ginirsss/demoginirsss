@@ -27,27 +27,27 @@ module.exports = function(grunt) {
         }
       } 
     },
-    'ftp-deploy': {
-      build: {
-        auth: {
-          host: 'globaldigital.cl',
-          port: 21,
-          authKey: 'key'
-        },
-        src: '/Applications/MAMP/htdocs/proyecto-simple/',
-        dest: '/public_html/desarrollo/proyecto-simple/',
-        exclusions: [
-          '/Applications/MAMP/htdocs/proyecto-simple/**/.*',
-          '/Applications/MAMP/htdocs/proyecto-simple/**/.*/', 
-          '/Applications/MAMP/htdocs/proyecto-simple/**/Thumbs.db',
-          '/Applications/MAMP/htdocs/proyecto-simple/**/ftppass',
-          '/Applications/MAMP/htdocs/proyecto-simple/node_modules',
-          '/Applications/MAMP/htdocs/proyecto-simple/*.json',
-          '/Applications/MAMP/htdocs/proyecto-simple/Gruntfile.js',
-          '/Applications/MAMP/htdocs/proyecto-simple/assets-dev'
-        ]
-      }
-    },
+    // 'ftp-deploy': {
+    //   build: {
+    //     auth: {
+    //       host: 'globaldigital.cl',
+    //       port: 21,
+    //       authKey: 'key'
+    //     },
+    //     src: '/Applications/MAMP/htdocs/demoginirsss/',
+    //     dest: '/public_html/desarrollo/demoginirsss/',
+    //     exclusions: [
+    //       '/Applications/MAMP/htdocs/demoginirsss/**/.*',
+    //       '/Applications/MAMP/htdocs/demoginirsss/**/.*/', 
+    //       '/Applications/MAMP/htdocs/demoginirsss/**/Thumbs.db',
+    //       '/Applications/MAMP/htdocs/demoginirsss/**/ftppass',
+    //       '/Applications/MAMP/htdocs/demoginirsss/node_modules',
+    //       '/Applications/MAMP/htdocs/demoginirsss/*.json',
+    //       '/Applications/MAMP/htdocs/demoginirsss/Gruntfile.js',
+    //       '/Applications/MAMP/htdocs/demoginirsss/assets-dev'
+    //     ]
+    //   }
+    // },
     watch: {
       options: {
         livereload: true

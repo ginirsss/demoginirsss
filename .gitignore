@@ -1,6 +1,5 @@
 
 *.md
-
 node_modules/grunt-contrib-imagemin/LICENSE-MIT
 node_modules/grunt-contrib-imagemin/node_modules/.bin/gifsicle
 node_modules/grunt-contrib-imagemin/node_modules/.bin/jpegtran
@@ -4273,7 +4272,6 @@ node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/ls/file1.js
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/ls/file2
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/ls/file2.js
-node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/ls/filename(with)[chars$]^that.must+be-escaped
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/pushd/a/dummy
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/resources/pushd/b/c/dummy
 node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/test/rm.js
